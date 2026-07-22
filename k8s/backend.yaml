@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: nirmallyachakraborty/k8s-demo-backend:latest
+        image: nirmallyachakraborty/k8s-demo-backend:v1
         imagePullPolicy: Always
 
         ports:

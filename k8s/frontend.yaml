@@ -19,7 +19,7 @@ spec:
       containers:
       - name: frontend
 
-        image: nirmallyachakraborty/k8s-demo-frontend:latest
+        image: nirmallyachakraborty/k8s-demo-frontend:v1
 
         imagePullPolicy: Always
 

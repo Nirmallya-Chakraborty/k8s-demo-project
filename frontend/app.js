@@ -1,5 +1,5 @@
 // Backend API URL
-const API_URL = "http://localhost:8000";
+const API_URL = "http://192.168.1.185:30008";
 
 const loginForm = document.getElementById("loginForm");
 const message = document.getElementById("message");
