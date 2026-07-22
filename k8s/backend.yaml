@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: <YOUR_DOCKERHUB_USERNAME>/k8s-demo-backend:v1
+        image: nirmallyachakraborty/k8s-demo-backend:latest
         imagePullPolicy: Always
 
         ports:
