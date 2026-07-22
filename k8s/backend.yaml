@@ -73,7 +73,8 @@ spec:
     app: backend
 
   ports:
-    - port: 8000
+    - nodePort: 30009
+      port: 8000
       targetPort: 8000
 
   type: ClusterIP
